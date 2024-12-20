@@ -5,7 +5,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "zapperhub", HidePremium = false, SaveConfig = true, ConfigFolder = "foncig"})
 
 local Tab = Window:MakeTab({
-	Name = "robloxy stuff",
+	Name = "universal",
 	Icon = "rbxassetid://18383452484",
 	PremiumOnly = false
 
@@ -63,6 +63,48 @@ Tab:AddButton({
 	Name = "kill yourself",
 	Callback = function()
       		player.Character.Humanoid.Health = 0
+  	end    
+})
+
+Tab:AddButton({
+	Name = "esp that only works on crappy games",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/crappyesp",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "aimbot",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/agreed69-scripts/open-src-scripts/refs/heads/main/Universal%20Aimbot.lua",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "better infinite yield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/infiniteplugin.lua",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "godmode",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/invincibility",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "fullbright",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/fullbright",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "teleport to",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))()
   	end    
 })
 
