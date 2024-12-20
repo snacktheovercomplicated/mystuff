@@ -1,6 +1,3 @@
-while true do
-task.wait(5)
-end
 local Players = game:GetService("Players")
 for _, player in ipairs(Players:GetPlayers()) do
     if player.Character and player ~= Players.LocalPlayer then
