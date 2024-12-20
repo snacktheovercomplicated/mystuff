@@ -1,5 +1,5 @@
-while wait(5) do
-
+while true do
+task.wait(5)
 end
 local Players = game:GetService("Players")
 for _, player in ipairs(Players:GetPlayers()) do
