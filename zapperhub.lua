@@ -48,7 +48,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "noclip gui",
 	Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/flyything.lua",true))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/noclip",true))()
   	end    
 })
 
