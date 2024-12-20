@@ -1,0 +1,10 @@
+local Players = game:GetService("Players")
+for _, player in ipairs(Players:GetPlayers()) do
+    if player.Character and player ~= Players.LocalPlayer then
+        local highlight = Instance.new("Highlight")
+        highlight.FillTransparency = 0.5
+        highlight.FillColor = Color3.fromRGB(255, 0, 0)
+        highlight.OutlineColor = Color3.fromRGB(255, 0, 0)
+        highlight.Parent = player.Character
+    end
+end
