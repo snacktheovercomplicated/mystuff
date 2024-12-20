@@ -8,3 +8,6 @@ for _, player in ipairs(Players:GetPlayers()) do
         highlight.Parent = player.Character
     end
 end
+while wait(5) do
+
+end
