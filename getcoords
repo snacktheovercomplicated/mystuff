@@ -1,0 +1,6 @@
+local player = game.Players.LocalPlayer -- Get the local player
+local character = player.Character or player.CharacterAdded:Wait() -- Wait for the character to be loaded
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart") -- Get the HumanoidRootPart
+
+local position = humanoidRootPart.Position -- Get the position of the HumanoidRootPart
+print(position) -- This will print the character's position
