@@ -1,1 +1,10 @@
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Prison_ITEMS.giver.M9
+- LocalScript
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+-- Define the target position as a CFrame
+local targetPosition = CFrame.new(822.3612670898438, 99.98999786376953, 2262.13427734375)
+
+-- Teleport the player to the target position
+humanoidRootPart.CFrame = targetPosition
