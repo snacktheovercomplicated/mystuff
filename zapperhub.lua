@@ -185,6 +185,23 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "tsb",
+	Icon = "rbxassetid://18383452484",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "toji",
+	Callback = function()
+      		getgenv().RunTool = true -- makes u run realy fast
+getgenv().TpTool = true -- tps to closest player
+getgenv().TpTool2 = true -- teleports you to whereever you click
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/Toji_Sigma_Boy/refs/heads/main/100%25%20Sigma%20Boy"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "hubs",
 	Icon = "rbxassetid://18383452484",
 	PremiumOnly = false
