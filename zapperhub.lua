@@ -218,7 +218,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "script hub",
+	Name = "get coordinates",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/getcoords", true))() 
   	end    
