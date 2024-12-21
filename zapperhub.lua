@@ -4,6 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "zapperhub", HidePremium = false, SaveConfig = true, ConfigFolder = "foncig"})
 
+
 local Tab = Window:MakeTab({
 	Name = "universal",
 	Icon = "rbxassetid://18383452484",
@@ -90,7 +91,11 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "godmode",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/invincibility",true))()
+      		local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+humanoid.HealthChanged:Connect(function(health)
+    humanoid.Health = 100
+end)
   	end    
 })
 
@@ -105,6 +110,33 @@ Tab:AddButton({
 	Name = "teleport to",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "pimp life",
+	Icon = "rbxassetid://18383452484",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "bomb the doors",
+	Callback = function()
+      		game.Workspace.Doors:Destroy()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "bomb the prison doors",
+	Callback = function()
+      		game.Workspace.Prison_Cellblock:Destroy()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "teleport to za gunny boys",
+	Callback = function()
+             print(work in blackress)
   	end    
 })
 
@@ -133,4 +165,3 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/scripthubv3xeno/refs/heads/main/scripthubv3", true))() 
   	end    
 })
-
