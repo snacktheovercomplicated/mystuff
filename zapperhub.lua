@@ -162,7 +162,7 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("must be in soccer place thing field")
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "teleport outside",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport%20outside"))()
   	end    
