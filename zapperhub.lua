@@ -136,7 +136,51 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "teleport to za gunny boys",
 	Callback = function()
-             print(work in blackress)
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "ragdoll stack",
+	Icon = "rbxassetid://18383452484",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "teleport to statue win",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport%20to%20statue%20win"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "happy city",
+	Icon = "rbxassetid://18383452484",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("must be in soccer place thing field")
+
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport%20outside"))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "jenga fuck you",
+	Icon = "rbxassetid://18383452484",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("btw u cant use this in lobby or else anticheat gets u")
+
+Tab:AddButton({
+	Name = "win",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport%20to%20win"))()
   	end    
 })
 
@@ -163,5 +207,19 @@ Tab:AddButton({
 	Name = "script hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/scripthubv3xeno/refs/heads/main/scripthubv3", true))() 
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "scripthelp",
+	Icon = "rbxassetid://18383452484",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "script hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/getcoords", true))() 
   	end    
 })
