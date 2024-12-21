@@ -1,2 +1,5 @@
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 local targetPosition = CFrame.new(43.24845886230469, 84.87881851196289, -161.4543609191406)
 humanoidRootPart.CFrame = targetPosition
