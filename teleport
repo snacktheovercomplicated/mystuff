@@ -1,9 +1,1 @@
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()  -- Wait for the character to load
-local humanoidRootPart = character:WaitForChild("HumanoidRootPart")  -- Wait for the HumanoidRootPart to exist
-
--- Ensure that the M9 object exists in the workspace
-local m9 = game:GetService("Workspace"):WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M9")
-
--- Set the CFrame of the player's HumanoidRootPart to the M9's position
-humanoidRootPart.CFrame = m9.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Prison_ITEMS.giver.M9
