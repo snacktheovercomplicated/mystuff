@@ -88,27 +88,16 @@ Tab:AddButton({
   	end    
 })
 
+
 Tab:AddButton({
 	Name = "godmode",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/hopefullyworkinggodmode"))()
-end)
-  	end    
+end
+   
 })
 
-Tab:AddButton({
-	Name = "dex(for solara)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ryxeleron/infiniteyield-reborn/master/Elements/SolaraDex",true))()
-  	end    
-})
 
-Tab:AddButton({
-	Name = "dex(for actually good executors)",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
-  	end    
-})
 
 Tab:AddButton({
 	Name = "fullbright",
