@@ -136,7 +136,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "teleport to za gunny boys",
 	Callback = function()
-             loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport"))()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleporttogun"))()
   	end    
 })
 
