@@ -190,6 +190,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+Tab:AddLabel("atomic samurai and re execute each time u die(loser if u die)")
+
 Tab:AddButton({
 	Name = "toji",
 	Callback = function()
