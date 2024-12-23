@@ -249,3 +249,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "angelic dex😇😇😇😇",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/MassiveHubs/loadstring/refs/heads/main/DexXenoAndRezware'))()
+  	end    
+})
