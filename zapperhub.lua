@@ -256,3 +256,13 @@ Tab:AddButton({
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/MassiveHubs/loadstring/refs/heads/main/DexXenoAndRezware'))()
   	end    
 })
+
+
+})
+
+Tab:AddButton({
+	Name = "bunch of debuggers",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt"))()
+  	end    
+})
