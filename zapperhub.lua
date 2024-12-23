@@ -89,15 +89,6 @@ Tab:AddButton({
 })
 
 
-Tab:AddButton({
-	Name = "godmode",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/hopefullyworkinggodmode"))()
-end
-   
-})
-
-
 
 Tab:AddButton({
 	Name = "fullbright",
@@ -107,11 +98,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "teleport to",
+	Name = "teleport to any player",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))()
   	end    
 })
+
+
 
 local Tab = Window:MakeTab({
 	Name = "pimp life",
@@ -242,3 +235,11 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/getcoords", true))() 
   	end    
 })
+
+Tab:AddButton({
+	Name = "simple spy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/simple%20spy"))()
+  	end    
+})
+
