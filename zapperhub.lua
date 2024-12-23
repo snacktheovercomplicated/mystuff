@@ -239,7 +239,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "simple spy",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/simple%20spy"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
   	end    
 })
 
