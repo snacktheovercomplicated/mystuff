@@ -243,3 +243,9 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "EVIL DEX😈😈😈😈😈😈",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+  	end    
+})
