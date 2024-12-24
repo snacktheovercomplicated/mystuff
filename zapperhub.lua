@@ -257,9 +257,6 @@ Tab:AddButton({
   	end    
 })
 
-
-})
-
 Tab:AddButton({
 	Name = "bunch of debuggers",
 	Callback = function()
