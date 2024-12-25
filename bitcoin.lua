@@ -18,3 +18,14 @@ Events.AutoSav:FireServer(unpack(args))
       print("saved")
   	end    
 })
+
+
+Tab:AddButton({
+	Name = "fix for swift",
+	Callback = function()
+      		getgenv().gethui = function() return game.CoreGui end
+                print("fixed")
+  	end    
+})
+
+OrionLib:Init()
