@@ -244,6 +244,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "client spy or some shit but its useful sometimes",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/complicated%20spy"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "EVIL DEX😈😈😈😈😈😈",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
@@ -265,9 +272,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "bunch of debuggers",
+	Name = "client spy or sm shit but its useful sometimes",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/complicated%20spy"))()
   	end    
 })
 
