@@ -271,12 +271,5 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "client spy or sm shit but its useful sometimes",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/complicated%20spy"))()
-  	end    
-})
-
 
 OrionLib:Init()
