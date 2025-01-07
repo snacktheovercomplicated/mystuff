@@ -117,7 +117,19 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "unc test for gits and shiggles",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua"))()
+  	end    
+})
 
+Tab:AddButton({
+	Name = "exec identity test",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Executor-Tests/main/Identity/Test.lua"))()
+  	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "pimp life",
@@ -156,20 +168,6 @@ Tab:AddButton({
 	Name = "teleport to statue win",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/snacktheovercomplicated/mystuff/refs/heads/main/teleport%20to%20statue%20win"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "unc test for gits and shiggles",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "exec identity test",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Executor-Tests/main/Identity/Test.lua"))()
   	end    
 })
 
