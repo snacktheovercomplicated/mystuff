@@ -1,9 +1,20 @@
+print("FUCK YEAHHHH I GOT HTE MOTIVIATION TO WORK ON THIS ONCE AGAIN")
+
+getgenv().gethui = function() return game.CoreGui end
+print("fixed")
+
 local player = game.Players.LocalPlayer
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "zapperhub", HidePremium = false, SaveConfig = true, ConfigFolder = "foncig"})
 
+OrionLib:MakeNotification({
+	Name = "get swift",
+	Content = "get swift blawgs",
+	Image = "rbxassetid://4483345998",
+	Time = 13
+})
 
 local Tab = Window:MakeTab({
 	Name = "universal",
@@ -11,6 +22,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 
 })
+
+
 
 Tab:AddSlider({
 	Name = "walkspeed",
@@ -146,6 +159,21 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "unc test for gits and shiggles",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "exec identity test",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Executor-Tests/main/Identity/Test.lua"))()
+  	end    
+})
+
+
 local Tab = Window:MakeTab({
 	Name = "happy city",
 	Icon = "rbxassetid://18383452484",
@@ -196,6 +224,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/Toji_Sigma_B
   	end    
 })
 
+Tab:AddLabel("garou")
+
+Tab:AddButton({
+	Name = "garou to inkirun",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Hero%20hunter%20to%20okarun%20fr"))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "hubs",
 	Icon = "rbxassetid://18383452484",
@@ -204,7 +241,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "storgen hub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/giogio11223/Storgenhubkeysystem/refs/heads/main/gioyuhh",true))()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5fd4081f6802dd9833957a3a8f72d515.lua"))()
   	end    
 })
 
