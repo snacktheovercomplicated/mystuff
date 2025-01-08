@@ -1,7 +1,7 @@
-print("FUCK YEAHHHH I GOT HTE MOTIVIATION TO WORK ON THIS ONCE AGAIN")
+print("if you see this you japop")
 
 getgenv().gethui = function() return game.CoreGui end
-print("fixed")
+print("fixed swift(if youre using it hopefully)")
 
 local player = game.Players.LocalPlayer
 
@@ -11,7 +11,7 @@ local Window = OrionLib:MakeWindow({Name = "zapperhub", HidePremium = false, Sav
 
 OrionLib:MakeNotification({
 	Name = "get swift",
-	Content = "get swift blawgs",
+	Content = "some scripts wont work without it",
 	Image = "rbxassetid://4483345998",
 	Time = 13
 })
