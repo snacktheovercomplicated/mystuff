@@ -1,7 +1,28 @@
+local Executor = identifyexecutor()
+
+
 print("if you see this you japop")
 
-getgenv().gethui = function() return game.CoreGui end
-print("fixed swift(if youre using it hopefully)")
+local Executor = identifyexecutor()
+
+if Executor == "Swift" then
+    print("using swift🔥")
+    print("fixing swift")
+    getgenv().gethui = function() return game.CoreGui end
+    print("fixed swift")
+end
+
+if Executor == "Luna" then
+    print("switch to swift")
+end
+
+if Executor == "Solara" then
+    print("switch to swift")
+end
+
+if Executor == "Xeno" then
+    print("switch to swift")
+end
 
 local player = game.Players.LocalPlayer
 
