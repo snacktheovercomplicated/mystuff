@@ -12,7 +12,7 @@ if Executor == "Swift" then
     print("fixed swift")
 end
 
-if Executor == "Luna" then
+if Executor == "NX" then
     print("switch to swift")
 end
 
